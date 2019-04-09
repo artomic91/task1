@@ -1,0 +1,41 @@
+@media (max-width: 615px) {
+    .content {
+        font-size: 0.6em;
+        margin: auto;
+        text-align: center;
+
+    }
+    form {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .column .radio {
+        width: 230px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .column .select {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+    
+    .btn button {
+        margin: auto;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
